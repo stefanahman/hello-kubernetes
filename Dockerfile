@@ -15,3 +15,6 @@
 #
 
 FROM erlang:19.2.2
+
+WORKDIR "/code"
+CMD ["rebar3","run"]
