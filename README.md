@@ -8,7 +8,7 @@ Cowboy web application to be used in the kubernetes test
 
 ## Docker setup
 
-    $ docker build -t -d hello_kubernetes .
+    $ docker build -t hello_kubernetes .
     $ docker run -dit -v [PATH-TO-THIS-REPO]:/code/ -p 8080:8080 hello_kubernetes:latest /bin/bash
 
 ## Access the app
