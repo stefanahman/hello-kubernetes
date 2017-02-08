@@ -1,0 +1,6 @@
+-sname hello_kubernetes
+
+-setcookie hello_kubernetes_cookie
+
++K true
++A30
