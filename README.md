@@ -1,5 +1,4 @@
 # hello_kubernetes
-=====
 
 Cowboy web application to be used in the kubernetes test
 
