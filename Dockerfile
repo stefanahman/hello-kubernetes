@@ -16,5 +16,6 @@
 
 FROM erlang:19.2.2
 
-WORKDIR "/code"
+COPY . /opt/hello_kubernetes/
+WORKDIR /opt/hello_kubernetes
 CMD ["rebar3","run"]
